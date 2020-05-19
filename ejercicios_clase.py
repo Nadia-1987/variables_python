@@ -25,7 +25,8 @@ def ej1():
     numero_2 = int(input())
     
     # Alumno: Imprima en pantalla los dos números decimales solicitados
-    # print(....)
+    print("los numeros solicitados son",numero_1,"y",numero_2)
+    
 
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
@@ -33,12 +34,20 @@ def ej1():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    sum=numero_1+numero_2
+    print("el resultado de la suma es",sum)
 
     # Resta
-
+    resta=numero_1-numero_2
+    print("el resultado de la resta es",resta)
     # División
+    div=numero_1/numero_2
+    print("el resultado de la division es",div)
 
     # Multiplicación
+    multiplicacion=numero_1*numero_2
+    print("el resultado de la multiplicacion es",multiplicacion)
+    
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -79,13 +88,15 @@ def ej3():
     apellido = str(input())
 
     # Imprima su nombre completo
-
+    print(nombre,apellido)
     # Almacenar su nombre completo en una variable
-    # nombre_completo = .....
+
+    nombre_completo = "Nadia Escalzo"
 
     # Imprimir la cantidad de letras que posee su nombre completo
-
-def ej3():
+    nombre_completo_len=len(nombre_completo) 
+    print(nombre_completo,"tiene",nombre_completo_len,"letras")
+def ej4():
     # Ejemplos variables de texto
 
     # Ingrese tres palabras y arme un acrónimo con ellas
@@ -98,31 +109,40 @@ def ej3():
 
     print('Ingrese palabra 3:')
     palabra_3 = str(input())
+    
+    print(palabra_1[0],palabra_2[0],palabra_3[0])
 
+    
 
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
 
-def ej4():
+def ej5():
     # Ejemplos variables de texto
 
     # Ingrese dos palabras y arme combinaciones con ella
     print('Ingrese palabra 1:')
     palabra_1 = str(input())
 
+
     print('Ingrese palabra 2:')
     palabra_2 = str(input())
 
-    # De la primera palabra tome las primeras tres letras, utilice el operador :
-    # De la segunda palabra tome las últimas tres letras, utilice el operador :
-    # Formar una nueva palabra con los recortes solicitados
-    # Imprima en pantalla los resultados
+    
 
+    # De la primera palabra tome las primeras tres letras, utilice el operador :
+    subtext1=palabra_1[:3]
+    # De la segunda palabra tome las últimas tres letras, utilice el operador :
+    subtext2=palabra_2[-3:]
+    # Formar una nueva palabra con los recortes solicitados
+    sum=subtext1+subtext2
+    # Imprima en pantalla los resultados
+    print(sum)
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     ej1()
     #ej2()
     #ej3()
     #ej4()
-
+    #ej5()
