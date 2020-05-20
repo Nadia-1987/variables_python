@@ -47,7 +47,7 @@ def ej1():
     # Multiplicación
     multiplicacion=numero_1*numero_2
     print("el resultado de la multiplicacion es",multiplicacion)
-    
+
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -141,7 +141,7 @@ def ej5():
     print(sum)
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
+    #ej1()
     #ej2()
     #ej3()
     #ej4()
