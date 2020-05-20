@@ -61,31 +61,47 @@ def ej2():
 
     print("nombre completo:",nombre_completo,"tengo",edad,"años","y mido",altura,"mts")
     
-    '''
+    
 def ej3():
     # Ejercicios de práctica con cadenas
+
+    print("nombre completo del padre:")
+    nombre_padre=str(input())
+    a,b=nombre_padre.split(" ")
+    print("nombre completo de la madre:")
+    nombre_madre=str(input())
+    c,d=nombre_madre.split(" ")
+    print("nombre completo hijo:")
+    nombre_hijo=str(input()) 
+    print(nombre_hijo,b,d)
+
+
+ 
+    
 
     
 
 def ej4():
     # Ejercicios de práctica con cadenas
+    a = 1
+    
+    
+    
+    
+    
 
-    '''
-    
-    
-        
-    '''
 
 def ej5():
     # Ejercicios de práctica con cadenas
+    a = 1 
        
    
-    '''
+    
 
 if __name__ == '__main__':
-    print("Ejercicios de práctica")
+    print("Ejercicios de practica")
     #ej1()
-    ej2()
-    #ej3()
+    #ej2()
+    ej3()
     #ej4()
     #ej5()
