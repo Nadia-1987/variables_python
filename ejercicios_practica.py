@@ -17,24 +17,24 @@ __version__ = "1.2"
 def ej1():
     # Ejercicios de práctica con números
 
-    numero_1=10.5
-    numero_2=20.8
+    numero_1 = 10.5
+    numero_2 = 20.8
 
  
-    sum=numero_1+numero_2
+    sum = numero_1+numero_2
     print("el resultado de la suma entre",numero_1,"y",numero_2,"es",sum)
     
-    resta=numero_1-numero_2
+    resta = numero_1-numero_2
     print("el resultado de la resta entre",numero_1,"y",numero_2,"es",resta)
 
-    multiplicación=numero_1*numero_2
-    print("el resultado de la multiplicacion entre",numero_1,"y",numero_2,"es",multiplicación)
+    multiplicacion = numero_1*numero_2
+    print("el resultado de la multiplicacion entre",numero_1,"y",numero_2,"es",multiplicacion)
 
-    division=numero_1/numero_2
-    print("el resultado de la division entre",numero_1,"y",numero_2,"es",multiplicación)
+    division = numero_1/numero_2
+    print("el resultado de la division entre",numero_1,"y",numero_2,"es",division)
 
-    exponente=numero_1**numero_2
-    print("el resultado de elevar",numero_1, "a la", numero_2,"es",exponente)
+    exponente = numero_1**numero_2
+    print("el resultado de elevar",numero_1,"a la",numero_2,"es",exponente)
     
       
 
@@ -100,8 +100,8 @@ def ej5():
 
 if __name__ == '__main__':
     print("Ejercicios de practica")
-    #ej1()
+    ej1()
     #ej2()
-    ej3()
+    #ej3()
     #ej4()
     #ej5()
