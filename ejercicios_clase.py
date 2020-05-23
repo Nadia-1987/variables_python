@@ -96,13 +96,15 @@ def ej3():
 
     # Imprima su nombre completo
     print(nombre,apellido)
+
     # Almacenar su nombre completo en una variable
 
     nombre_completo = "Nadia Escalzo"
 
     # Imprimir la cantidad de letras que posee su nombre completo
     nombre_completo_len=len(nombre_completo) 
-    print(nombre_completo,"tiene",nombre_completo_len,"letras")
+    print(nombre_completo,"tiene",nombre_completo_len,"caracteres")
+
 def ej4():
     # Ejemplos variables de texto
 
@@ -116,8 +118,18 @@ def ej4():
 
     print('Ingrese palabra 3:')
     palabra_3 = str(input())
+
+    print('Ingrese palabra 4:')
+    palabra_4 = str(input())
+
+    print('Ingrese palabra 5:')
+    palabra_5 = str(input())
+
+    print('Ingrese palabra 6:')
+    palabra_6 = str(input())
+
     
-    print(palabra_1[0],palabra_2[0],palabra_3[0])
+    print(palabra_1[0],palabra_2[0],palabra_3[0],palabra_4[0],palabra_5[0],palabra_6[0])
 
     
 
@@ -149,7 +161,7 @@ def ej5():
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     #ej1()
-    ej2()
+    #ej2()
     #ej3()
-    #ej4()
+    ej4()
     #ej5()
