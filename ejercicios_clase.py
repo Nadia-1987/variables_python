@@ -34,12 +34,12 @@ def ej1():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-    sum=numero_1+numero_2
-    print("el resultado de la suma es",sum)
+    sum = numero_1+numero_2
+    print("el resultado de la suma entre",numero_1,"y",numero_2,"es",sum)
 
     # Resta
-    resta=numero_1-numero_2
-    print("el resultado de la resta es",resta)
+    resta = numero_1-numero_2
+    print("el resultado de la resta entre",numero_1,"y",numero_2,"es",resta)
     # División
     div=numero_1/numero_2
     print("el resultado de la division es",div)
@@ -141,7 +141,7 @@ def ej5():
     print(sum)
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    #ej1()
+    ej1()
     #ej2()
     #ej3()
     #ej4()
