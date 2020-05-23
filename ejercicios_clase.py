@@ -41,11 +41,11 @@ def ej1():
     resta = numero_1-numero_2
     print("el resultado de la resta entre",numero_1,"y",numero_2,"es",resta)
     # División
-    div=numero_1/numero_2
+    div = numero_1/numero_2
     print("el resultado de la division es",div)
 
     # Multiplicación
-    multiplicacion=numero_1*numero_2
+    multiplicacion = numero_1*numero_2
     print("el resultado de la multiplicacion es",multiplicacion)
 
 
@@ -68,13 +68,20 @@ def ej2():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    sum = numero_3 + numero_4
+    print("El resultado de sumar",numero_3,"y",numero_4,"es:",sum)
 
     # Resta
+    resta = numero_3 - numero_4
+    print("El resultado de restar",numero_3,"y",numero_4,"es:",resta)
 
     # División
+    division = numero_3 / numero_4
+    print("El resultado de dividir",numero_3,"y",numero_4,"es:",division)
 
     # Multiplicación
-
+    multip = numero_3 * numero_4
+    print("El resultado de multiplicar",numero_3,"y",numero_4,"es:",multip)
 
 def ej3():
     # Ejemplos variables de texto
@@ -141,8 +148,8 @@ def ej5():
     print(sum)
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    #ej2()
+    #ej1()
+    ej2()
     #ej3()
     #ej4()
     #ej5()
