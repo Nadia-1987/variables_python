@@ -152,8 +152,12 @@ def ej5():
 
     # De la primera palabra tome las primeras tres letras, utilice el operador :
     subtext1=palabra_1[:3]
+    print(subtext1)
+
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
     subtext2=palabra_2[-3:]
+    print(subtext2)
+    
     # Formar una nueva palabra con los recortes solicitados
     sum=subtext1+subtext2
     # Imprima en pantalla los resultados
@@ -163,5 +167,5 @@ if __name__ == '__main__':
     #ej1()
     #ej2()
     #ej3()
-    ej4()
-    #ej5()
+    #ej4()
+    ej5()
