@@ -73,7 +73,7 @@ def ej3():
     print("nombre completo de la madre:")
     nombre_madre=str(input())
     c,d=nombre_madre.split(" ")
-    
+
     print("nombre completo hijo:")
     nombre_hijo=str(input()) 
     print(nombre_hijo,b,d)
@@ -86,7 +86,24 @@ def ej3():
 
 def ej4():
     # Ejercicios de práctica con cadenas
-    a = 1
+
+    print("escriba el nombre de la persona 1")
+    persona_1=str(input())
+
+    print("escriba el nombre de la persona 2")
+    persona_2=str(input())
+
+    persona_2 = "Juan Perez"
+    nombre, apellido = persona_2.split(" ")
+
+    print(apellido)
+
+    apellido = "Perez"
+    son_parientes = apellido in persona_1
+    print(persona_2,"tiene el apellido",apellido,"?")
+
+
+
     
     
     
@@ -105,6 +122,6 @@ if __name__ == '__main__':
     print("Ejercicios de practica")
     #ej1()
     #ej2()
-    ej3()
-    #ej4()
+    #ej3()
+    ej4()
     #ej5()
