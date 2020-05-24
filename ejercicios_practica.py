@@ -113,8 +113,19 @@ def ej4():
 
 def ej5():
     # Ejercicios de práctica con cadenas
-    a = 1 
-       
+    
+    print("indique su nombre completo: ")
+    nombre_completo= str.lower(input())
+    print(nombre_completo)
+
+    print("indique su nombre completo:")
+    nombre_completo=str.upper(input())
+    print(nombre_completo)
+
+    print("indique su nombre completo:")
+    nombre_completo=str.capitalize(input())
+    print(nombre_completo)
+          
    
     
 
@@ -123,5 +134,5 @@ if __name__ == '__main__':
     #ej1()
     #ej2()
     #ej3()
-    ej4()
-    #ej5()
+    #ej4()
+    ej5()
