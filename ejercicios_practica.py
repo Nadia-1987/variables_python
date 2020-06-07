@@ -21,19 +21,19 @@ def ej1():
     numero_2 = 20.8
 
  
-    sum = numero_1+numero_2
+    sum = numero_1 + numero_2
     print("el resultado de la suma entre",numero_1,"y",numero_2,"es",sum)
     
-    resta = numero_1-numero_2
+    resta = numero_1 - numero_2
     print("el resultado de la resta entre",numero_1,"y",numero_2,"es",resta)
 
-    multiplicacion = numero_1*numero_2
+    multiplicacion = numero_1 * numero_2
     print("el resultado de la multiplicacion entre",numero_1,"y",numero_2,"es",multiplicacion)
 
-    division = numero_1/numero_2
+    division = numero_1 / numero_2
     print("el resultado de la division entre",numero_1,"y",numero_2,"es",division)
 
-    exponente = numero_1**numero_2
+    exponente = numero_1 ** numero_2
     print("el resultado de elevar",numero_1,"a la",numero_2,"es",exponente)
     
       
@@ -46,36 +46,36 @@ def ej2():
     # Ejercicios de práctica numérica y cadenas
     
     print("ingrese su nombre completo:")
-    nombre_completo=str(input())
+    nombre_completo = str(input())
     
     print("ingrese su dni:")
-    dni=int(input())
+    dni= int(input())
     
     print("ingrese su edad:")
-    edad=int(input())
+    edad = int(input())
     
     print("ingrese su altura:")
-    altura=float(input())
+    altura = float(input())
 
     print("nombre completo:",nombre_completo,"dni",dni)
 
-    print("nombre completo:",nombre_completo,"tengo",edad,"años","y mido",altura,"mts")
+    print("mi nombre completo es:",nombre_completo,"tengo",edad,"años","y mido",altura,"mts")
     
     
 def ej3():
     # Ejercicios de práctica con cadenas
 
     print("nombre completo del padre:")
-    nombre_padre=str(input())
+    nombre_padre = str(input())
 
-    a,b=nombre_padre.split(" ")
+    a,b = nombre_padre.split(" ")
 
     print("nombre completo de la madre:")
-    nombre_madre=str(input())
-    c,d=nombre_madre.split(" ")
+    nombre_madre = str(input())
+    c,d = nombre_madre.split(" ")
 
     print("nombre completo hijo:")
-    nombre_hijo=str(input()) 
+    nombre_hijo = str(input()) 
     print(nombre_hijo,b,d)
 
 
@@ -88,19 +88,16 @@ def ej4():
     # Ejercicios de práctica con cadenas
 
     print("escriba el nombre de la persona 1")
-    persona_1=str(input())
+    persona_1 = str(input())
 
     print("escriba el nombre de la persona 2")
-    persona_2=str(input())
+    persona_2 = str(input())
 
-    persona_2 = "Juan Perez"
-    nombre, apellido = persona_2.split(" ")
+    nombre,apellido = persona_2.split(" ")
 
-    print(apellido)
-
-    apellido = "Perez"
     son_parientes = apellido in persona_1
-    print(persona_2,"tiene el apellido",apellido,"?")
+
+    print(persona_1,"tiene el apellido",apellido,"?",son_parientes)
 
 
 
@@ -115,15 +112,15 @@ def ej5():
     # Ejercicios de práctica con cadenas
     
     print("indique su nombre completo: ")
-    nombre_completo= str.lower(input())
+    nombre_completo = str.lower(input())
     print(nombre_completo)
 
     print("indique su nombre completo:")
-    nombre_completo=str.upper(input())
+    nombre_completo = str.upper(input())
     print(nombre_completo)
 
     print("indique su nombre completo:")
-    nombre_completo=str.capitalize(input())
+    nombre_completo = str.capitalize(input())
     print(nombre_completo)
           
    
@@ -135,4 +132,4 @@ if __name__ == '__main__':
     #ej2()
     #ej3()
     #ej4()
-    ej5()
+    #ej5()
