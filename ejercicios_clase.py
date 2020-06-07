@@ -34,18 +34,18 @@ def ej1():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-    sum = numero_1+numero_2
+    sum = numero_1 + numero_2
     print("el resultado de la suma entre",numero_1,"y",numero_2,"es",sum)
 
     # Resta
-    resta = numero_1-numero_2
+    resta = numero_1 - numero_2
     print("el resultado de la resta entre",numero_1,"y",numero_2,"es",resta)
     # División
-    div = numero_1/numero_2
+    div = numero_1 / numero_2
     print("el resultado de la division es",div)
 
     # Multiplicación
-    multiplicacion = numero_1*numero_2
+    multiplicacion = numero_1 * numero_2
     print("el resultado de la multiplicacion es",multiplicacion)
 
 
@@ -88,6 +88,7 @@ def ej3():
 
     # Ingrese primero su nombre y luego su apellido
     # Capture ambos datos e imprima su nombre completo
+    
     print('Ingrese su nombre/s:')
     nombre = str(input())
 
@@ -102,7 +103,7 @@ def ej3():
     nombre_completo = "Nadia Escalzo"
 
     # Imprimir la cantidad de letras que posee su nombre completo
-    nombre_completo_len=len(nombre_completo) 
+    nombre_completo_len = len(nombre_completo) 
     print(nombre_completo,"tiene",nombre_completo_len,"caracteres")
 
 def ej4():
@@ -151,7 +152,7 @@ def ej5():
     
 
     # De la primera palabra tome las primeras tres letras, utilice el operador :
-    subtext1=palabra_1[:3]
+    subtext1 = palabra_1[:3]
     print(subtext1)
 
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
@@ -159,7 +160,7 @@ def ej5():
     print(subtext2)
     
     # Formar una nueva palabra con los recortes solicitados
-    sum=subtext1+subtext2
+    sum = subtext1 + subtext2
     # Imprima en pantalla los resultados
     print(sum)
 if __name__ == '__main__':
