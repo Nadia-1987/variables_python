@@ -96,8 +96,19 @@ def ej4():
     nombre,apellido = persona_2.split(" ")
 
     son_parientes = apellido in persona_1
+<<<<<<< HEAD
 
     print(persona_1,"tiene el apellido",apellido,"?",son_parientes)
+=======
+    print(persona_2,"tiene el apellido",apellido,"?")
+    
+    # Inove: Todo perfectos los ejercicios! Mi única
+    # sugerencia en este caso es agregar en el print
+    # el valor de la variable "son_parientes" que tendrá
+    # el valor True o False según si el apellido de
+    # persona_2 pertenece al nombre de persona_1
+    # print(persona_2,"tiene el apellido",apellido,"?",son_parientes)
+>>>>>>> 73061523af984642a1f50fef4f36d262698afa64
 
 
 
